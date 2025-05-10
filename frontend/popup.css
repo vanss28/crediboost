@@ -1,0 +1,86 @@
+/* Make the popup body blend in seamlessly */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  background: transparent;
+  width: 280px;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Card UI */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Typography and visuals */
+.card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.highlight {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.red {
+  color: #d32f2f;
+}
+
+.green {
+  color: #2e7d32;
+}
+
+.gray-number {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 4px 0 12px 0;
+}
+
+.percent {
+  font-size: 24px;
+}
+
+.arrow {
+  font-size: 20px;
+}
+
+.link {
+  display: block;
+  margin-top: 14px;
+  text-decoration: none;
+  color: #1a73e8;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #999;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
