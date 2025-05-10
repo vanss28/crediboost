@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fake Review Stats</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <!-- View 1: Summary -->
+  <div id="summaryView" class="card">
+    <button class="close-btn">&times;</button>
+    <p><strong>fake reviews affected the popularity of this product by</strong></p>
+    <div class="highlight red">
+      <span class="percent">--%</span>
+      <span class="arrow">↑</span>
+    </div>
+    <p><strong>on an average</strong></p>
+    <a href="#" class="link" id="detailsLink">See detailed statistics →</a>
+  </div>
+
+  <!-- View 2: Detailed (content will be dynamically injected) -->
+  <div id="detailsView" class="card hidden"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
